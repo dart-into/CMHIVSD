@@ -1,0 +1,35 @@
+# Custom data for safety helmet
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: /home/user/yolov5-mask-42-master/yolov5_data/images/train
+#val: /home/user/yolov5-mask-42-master/yolov5_data/images/val
+#small
+#train: /home/user/yolov5-mask-42-master/data_small/images/train
+#val: /home/user/yolov5-mask-42-master/data_small/images/val
+#big
+#train: /home/user/yolov5-mask-42-master/data_big/images/train
+#val: /home/user/yolov5-mask-42-master/data_big/images/val
+#smallimg
+#train: /home/user/yolov5-mask-42-master/data_smallimg/images/train
+#val: /home/user/yolov5-mask-42-master/data_smallimg/images/val
+#smallimg-small_label
+# train: /home/user/yolov5-mask-42-master/data_smallimg_small/images/train
+# val: /home/user/yolov5-mask-42-master/data_smallimg_small/images/val
+#smallimg-big_label
+#train: /home/user/yolov5-mask-42-master/data_smallimg_big/images/train
+#val: /home/user/yolov5-mask-42-master/data_smallimg_big/images/val
+#smallimg-big_label
+# train: /home/user/yolov5-mask-42-master/data_smallimg_big2/images/train
+# val: /home/user/yolov5-mask-42-master/data_smallimg_big2/images/val
+#bigimg
+# train: /home/user/yolov5-mask-42-master/yancheng_img/images/train
+# val: /home/user/yolov5-mask-42-master/yancheng_img/images/val
+#smallimg-small_label2
+train: /home/user/yaocai_bigimg/yolo_train/big_img_new2/images/train
+val: /home/user/yaocai_bigimg/yolo_train/big_img_new2/images/val
+# number of classes
+nc: 1
+
+# class names
+names: ['herbal']
